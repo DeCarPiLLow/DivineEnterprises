@@ -17,8 +17,11 @@ def create_app():
 
     return app
 
+# Create a global app instance for WSGI servers like Gunicorn
+app = create_app()
 
-# Create app instance for WSGI servers (Render/Gunicorn)
+# Only run the dev server if executed directly
 if __name__ == '__main__':
-    app = create_app()
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
