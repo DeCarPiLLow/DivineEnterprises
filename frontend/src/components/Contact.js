@@ -15,7 +15,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email Us',
-      content: 'info@solarsquare.in',
+      content: 'Solardivine69@gmail.com',
       subContent: 'Get response within 24 hours',
       action: 'mailto:info@solarsquare.in'
     },

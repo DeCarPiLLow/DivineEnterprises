@@ -57,7 +57,7 @@ const About = () => {
                 ))}
               </div>
 
-              {/* Company Quote */}
+              {/* Company Quote
               <div className="mt-8 p-6 bg-gradient-to-r from-green-50 to-blue-50 rounded-xl border-l-4 border-green-500">
                 <blockquote className="text-gray-700 italic text-lg leading-relaxed">
                   "I'd put my money on the sun and solar energy. 
@@ -66,7 +66,7 @@ const About = () => {
                 <cite className="text-green-600 font-semibold text-sm mt-2 block">
                   — Thomas Edison
                 </cite>
-              </div>
+              </div> */}
             </div>
 
             {/* Award Section */}
@@ -96,7 +96,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Mission Statement */}
+        {/* Mission Statement
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">Our Mission</h3>
@@ -106,7 +106,7 @@ const About = () => {
               for future generations.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

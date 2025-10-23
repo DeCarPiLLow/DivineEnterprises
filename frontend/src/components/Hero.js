@@ -7,7 +7,7 @@ const Hero = () => {
 
   const slides = [
     {
-      title: "#1 Home Rooftop Solar Company",
+      title: "#1 Rooftop Solar Company",
       subtitle: "Save upto 90% on electricity bills with solar installation",
       image: "🏠",
     },

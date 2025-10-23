@@ -20,7 +20,7 @@ const Services = ({activeSection ,setActiveSection}) => {
     },
     {
       icon: <Award className="h-12 w-12 text-orange-500" />,
-      title: 'Annual Maintenance Contract',
+      title: 'Annual Maintenance',
       description: 'Free 5-year maintenance including quarterly cleaning and system efficiency monitoring.',
       features: [
         'Quarterly panel cleaning',
