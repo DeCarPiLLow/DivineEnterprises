@@ -11,7 +11,7 @@ const About = () => {
     'Free guidance from experienced solar consultants',
     'Complete rooftop inspection before installation',
     'No compromise with Material Quality',
-    'Free 5-year annual maintenance contract'
+    'Free 5-year annual maintenance'
   ];
 
   return (
@@ -70,7 +70,7 @@ const About = () => {
             </div>
 
             {/* Award Section */}
-            <div className="text-center ">
+            {/* <div className="text-center "> */}
               {/* <div className="text-8xl mb-6">🏆</div>
               <h4 className="text-2xl font-bold text-gray-900 mb-4">
                 Award Winning Company
@@ -92,7 +92,7 @@ const About = () => {
                   <li> Loan availablity from Nationalized Bank with low interest rate of 6% up-to Rs 2,00,000</li>
                 </ul>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
 

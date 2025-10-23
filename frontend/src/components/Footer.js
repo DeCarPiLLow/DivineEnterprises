@@ -120,7 +120,7 @@ const Footer = () => {
             </div> */}
           </div>
 
-          {/* Services */}
+          {/* Services
           <div>
             <h3 className="text-lg font-semibold mb-6">Our Services</h3>
             <ul className="space-y-3">
@@ -135,7 +135,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Company */}
           <div>

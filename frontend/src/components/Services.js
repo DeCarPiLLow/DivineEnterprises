@@ -94,7 +94,7 @@ const Services = ({activeSection ,setActiveSection}) => {
           </div>
         </div>
 
-        {/* Environmental Impact */}
+        {/* Environmental Impact
         <div className="bg-gradient-to-r from-green-500 to-blue-600 rounded-2xl p-8 text-white text-center">
           <h3 className="text-2xl md:text-3xl font-bold mb-6">
             Environmental Impact
@@ -102,9 +102,9 @@ const Services = ({activeSection ,setActiveSection}) => {
           <p className="text-lg mb-8 leading-relaxed">
             Installing even a 1 kW solar system means avoiding 1 metric ton of CO₂ 
             every year for 25 years - equivalent to planting 15 trees!
-          </p>
+          </p> */}
           
-          {/* Impact Visualization */}
+          {/* Impact Visualization
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 bg-white/10 backdrop-blur-sm rounded-xl p-6">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold mb-2">1 kW</div>
@@ -120,9 +120,9 @@ const Services = ({activeSection ,setActiveSection}) => {
               <div className="text-3xl md:text-4xl font-bold mb-2">15</div>
               <div className="text-sm">Trees Planted</div>
             </div>
-          </div>
+          </div> */}
 
-          {/* Additional Benefits */}
+          {/* Additional Benefits
           <div className="grid md:grid-cols-3 gap-6 mt-8">
             <div className="text-center">
               <div className="text-2xl mb-2">🌱</div>
@@ -139,8 +139,8 @@ const Services = ({activeSection ,setActiveSection}) => {
               <div className="font-semibold">Property Value</div>
               <div className="text-sm text-green-100">Increase your home's market value</div>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> */}
 
         {/* Call to Action */}
         <div className="text-center mt-16">
