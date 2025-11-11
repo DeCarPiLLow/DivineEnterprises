@@ -8,9 +8,9 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Call Us',
-      content: '+91 9876543210',
+      content: '+91 8887940690',
       subContent: 'Mon-Sat 9:00 AM - 6:00 PM',
-      action: 'tel:+919876543210'
+      action: 'tel:+918887940690'
     },
     {
       icon: <Mail className="h-6 w-6" />,
@@ -29,9 +29,9 @@ const Contact = () => {
     {
       icon: <MessageCircle className="h-6 w-6" />,
       title: 'WhatsApp',
-      content: '+91 9876543210',
+      content: '+91 881749652',
       subContent: 'Quick chat support',
-      action: 'https://wa.me/919876543210'
+      action: 'https://wa.me/881749652'
     }
   ];
 
@@ -132,10 +132,10 @@ const Contact = () => {
                   For existing customers with urgent solar system issues
                 </p>
                 <a 
-                  href="tel:+919876543211" 
+                  href="tel:+918887940690" 
                   className="text-red-100 hover:text-white font-medium"
                 >
-                  +91 9876543211
+                  +91 8887940690
                 </a>
               </div>
             </div>
@@ -153,7 +153,7 @@ const Contact = () => {
         </div>
 
         {/* Additional Information */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {/* Service Areas */}
           <div className="bg-green-50 rounded-xl p-6 border border-green-200">
             <h3 className="text-lg font-bold text-gray-900 mb-4">Service Areas</h3>
@@ -186,7 +186,7 @@ const Contact = () => {
           </div>
 
           {/* Quality Assurance */}
-          <div className="bg-purple-50 rounded-xl p-6 border border-purple-200">
+          {/* <div className="bg-purple-50 rounded-xl p-6 border border-purple-200">
             <h3 className="text-lg font-bold text-gray-900 mb-4">Quality Assurance</h3>
             <ul className="text-sm text-gray-700 space-y-2">
               <li>• UL Certified Components</li>
@@ -194,11 +194,11 @@ const Contact = () => {
               <li>• Post-Installation Support</li>
               <li>• Performance Monitoring</li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               Ready to Make the Switch?
@@ -216,7 +216,7 @@ const Contact = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

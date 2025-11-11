@@ -10,10 +10,8 @@ const Services = ({activeSection ,setActiveSection}) => {
     {
       icon: <Zap className="h-12 w-12 text-blue-500" />,
       title: 'Solar Panel Installation',
-      description: 'Safe and seamless installation with chemically anchored mounting structures for 25+ years durability.',
+      description: 'Safe and seamless installation with chemically anchored mounting structures for 25+ years durability. The biggest concern of consumer is whether the panel will be blown away by wind. Keeping this in mind, now you do not need to be afraid because we use the best design & material for structure according to the site and envoirntment conditons.',
       features: [
-        'Chemically anchored mounting',
-        '25+ years system durability',
         'Professional installation team',
         'Safety-first approach'
       ]
@@ -21,12 +19,10 @@ const Services = ({activeSection ,setActiveSection}) => {
     {
       icon: <Award className="h-12 w-12 text-orange-500" />,
       title: 'Annual Maintenance',
-      description: 'Free 5-year maintenance including quarterly cleaning and system efficiency monitoring.',
+      description: 'Free 5-year maintenance services.',
       features: [
-        'Quarterly panel cleaning',
         'System performance monitoring',
-        'Preventive maintenance',
-        'Free 5-year coverage'
+        'Preventive maintenance'
       ]
     }
   ];
@@ -72,7 +68,7 @@ const Services = ({activeSection ,setActiveSection}) => {
         </div>
 
         {/* Process Timeline */}
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <h3 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-12">
             Our Installation Process
           </h3>
@@ -92,7 +88,7 @@ const Services = ({activeSection ,setActiveSection}) => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Environmental Impact
         <div className="bg-gradient-to-r from-green-500 to-blue-600 rounded-2xl p-8 text-white text-center">
@@ -143,7 +139,7 @@ const Services = ({activeSection ,setActiveSection}) => {
         </div> */}
 
         {/* Call to Action */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
             Ready to Go Solar?
           </h3>
@@ -158,7 +154,7 @@ const Services = ({activeSection ,setActiveSection}) => {
               Get Free Quote
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
