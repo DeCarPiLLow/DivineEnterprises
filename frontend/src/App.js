@@ -16,6 +16,7 @@ import ServicePage from "./pages/ServicePage";
 import CalculatorPage from "./pages/CalculatorPage";
 import AdminPage from "./pages/AdminPage";
 import UserProfilePage from "./pages/ProfilePage";
+import MaterialSpecPage from "./pages/MaterialSpecPage";
 
 // ------------------ Protected Route Wrapper ------------------
 const ProtectedRoute = ({ children, adminOnly = false }) => {
@@ -61,6 +62,7 @@ const AppContent = () => {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/services" element={<ServicePage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/material" element={< MaterialSpecPage/>} />
             <Route path="/solarcalculator" element={<CalculatorPage />} />
             <Route
               path="/profile"
