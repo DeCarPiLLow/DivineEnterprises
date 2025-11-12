@@ -70,11 +70,11 @@ const About = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+              <h3 className="text-xl md:text-3xl font-bold text-gray-900 mb-6">
                 Why Choose Solar?
               </h3>
               <div className="space-y-4">
-                {features.map((feature, index) => (
+                {solarbenefits.map((feature, index) => (
                   <div key={index} className="flex items-start group">
                     <CheckCircle className="h-6 w-6 text-green-500 mr-4 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                     <span className="text-gray-700 leading-relaxed">{feature}</span>
